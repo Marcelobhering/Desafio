@@ -60,9 +60,10 @@ Informação do Atributos:
 4. largura da pétala em cm
 5. espécies: - Iris Setosa - Iris Versicolour - Iris Virginica
   
-  ![image](https://user-images.githubusercontent.com/73002012/145321833-9f403145-d88e-42f7-9648-030dc036efbe.png)
+Temos 3 espécies da flor íris para fazer sua classificação, baseado nas medidas das flores será possível classificá-las.
+Com o auxílio das classes Pandas e NumPy foi realizada a análise exploratória dos dados, foi plotado o gráfico que demostrou os 4 atributos sendo analisado em pares, através do gráfico de dispersão foi exibido as medidas em cm das pétalas e sépalas, já o gráfico de histogramas que está na diagonal principal, analisou a distribuição de frequências de cada característica. Nos gráficos de barra, relaciona individualmente cada espécies com as medidas dos seus atributos. Com o auxílio da matriz de correlação foi possível analisar os coeficientes de correlação entres as varáveis. A coluna espécie do conjunto de dados foi convertida para valores numéricos para poderem ser selecionadas com entradas e foi definido as amostras de treino e teste, o tamanho dos dados selecionados para teste foi de 70%.
+Próximo passo foi aplicar os modelos de avaliação com o auxílio das funcionalidade das classes do Scikit-Learn, os modelos usados foram de Regressão logística, K-vizinhos próximos e modelo árvore de decisão. Foi determinada a matriz de confusão de cada modelo e se observa que na diagonal principal os valores de verdadeiro positivo estão mais acertados. Foi adotado a acurácia para calcular a performance de cada modelo e que obteve o melhor resultado foi o de Árvore de decisão com 94,29% de predições corretas.
 
-  
   
   # Algoritmos para parte 2
 
