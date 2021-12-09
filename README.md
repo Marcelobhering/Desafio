@@ -1,6 +1,6 @@
 # Desafio Machine Learning
 
- # Parte 2 - Projeto de aprendizagem de máquina para quantificar a variação morfológica das flores de íris de três espécies relacionadas.
+Parte 2 - Projeto de aprendizagem de máquina para quantificar a variação morfológica das flores de íris de três espécies relacionadas.
 
  -> Iris dataset analysis - Problema de classificação
   
