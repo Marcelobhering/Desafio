@@ -18,8 +18,8 @@ Informação dos Atributos:
 6. aceleração: contínuo
 7. ano do modelo: discreto multivalorado
 8. origem: discreto multivalorado
-9. nome do carro: string (único para cada instância)    
-OBS.Valores de atributo ausentes: cavalos de força tem 6 valores ausentes
+9. nome do carro: string (único para cada instância)
+Obs.Valores de atributo ausentes: cavalos de força tem 6 valores ausentes
 
 
 O primeiro passo consistiu na realização da análise exploratória dos dados com as funcionalidade das classes Pandas e NumPy , sendo que uma das análises foi feita através do gráfico emparelhado das variáveis. 
