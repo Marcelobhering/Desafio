@@ -1,12 +1,12 @@
 # Desafio Machine learn
 
 
-Parte 1- Projeto de aprendizado de máquina para prever o consumo de combustível de veículos.
+# Parte 1 - Projeto de aprendizado de máquina para prever o consumo de combustível de veículos.
 
-Auto MPG Data Set - Problema de regressão
+-> Auto MPG Data Set - Problema de regressão
 
 Informação do conjunto de dados:
-Os dados dizem respeito ao consumo de combustível na cidade em milhas por galão, são 3 atributos discretos com vários valores e cinco atributos contínuos.
+Os dados dizem respeito ao consumo de combustível na cidade em milhas por galão, são três atributos discretos com vários valores e cinco atributos contínuos.
 
 Informação dos Atributos:
 
@@ -37,16 +37,38 @@ Foi testado também os modelos de floresta aleatória e SVM com os mesmos dados 
 Ao avaliar todos os modelos usando o método de validação cruzada, percebeu-se que o modelo floresta aleatória foi o que obteve melhor performance entre os modelos. Foi realizado o ajuste de hiper parâmetro no modelo floresta aleatória por ter sido o que obteve o melhor rendimento. Depois de comprovar o funcionamento dos métodos, foi realizada a avaliação de todo o sistema com os dados de teste. O modelo será capaz de prever o MPG ou a eficiência de combustível de veículos com um erro quadrático médio de 3.0682.
 
 
-# Bibliotecas 
-
-<li>pandas
-<li>matplotlib
-<li>seaborn
-<li>scikit-learn
-
 # Algoritmos
 
 <li>Regressão linear
 <li>Árvore de decisão 
 <li>Floresta aleatória 
 <li>SVM
+ 
+ # Parte 2 - Projeto de aprendizado de máquina para prever o consumo de combustível de veículos.
+
+ -> Iris dataset analysis - Problema de classificação
+  
+Informação do conjunto de dados:
+O conjunto de dados contem três tipos de flores de íris, são 150 registros com cinco atributos - comprimento da sépala, largura da sépala, comprimento da pétala, largura da pétala e espécies
+   
+  
+Informação do Atributos: 
+
+1. comprimento sépala em cm
+2. largura sépala em cm
+3. comprimento da pétala em cm
+4. largura da pétala em cm
+5. espécies: - Iris Setosa - Iris Versicolour - Iris Virginica
+  
+  ![image](https://user-images.githubusercontent.com/73002012/145321833-9f403145-d88e-42f7-9648-030dc036efbe.png)
+
+  
+  
+  
+  
+ # Bibliotecas 
+
+<li>pandas
+<li>matplotlib
+<li>seaborn
+<li>scikit-learn
