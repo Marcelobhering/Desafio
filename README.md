@@ -37,14 +37,14 @@ Foi testado também os modelos de floresta aleatória e SVM com os mesmos dados 
 Ao avaliar todos os modelos usando o método de validação cruzada, percebeu-se que o modelo floresta aleatória foi o que obteve melhor performance entre os modelos. Foi realizado o ajuste de hiper parâmetro no modelo floresta aleatória por ter sido o que obteve o melhor rendimento. Depois de comprovar o funcionamento dos métodos, foi realizada a avaliação de todo o sistema com os dados de teste. O modelo será capaz de prever o MPG ou a eficiência de combustível de veículos com um erro quadrático médio de 3.0682.
 
 
-# Algoritmos
+# Algoritmos para parte 1
 
 <li>Regressão linear
 <li>Árvore de decisão 
 <li>Floresta aleatória 
 <li>SVM
  
- # Parte 2 - Projeto de aprendizado de máquina para prever o consumo de combustível de veículos.
+ # Parte 2 - Projeto de aprendizado de máquina para quantificar a variação morfológica das flores de íris de três espécies relacionadas.
 
  -> Iris dataset analysis - Problema de classificação
   
@@ -64,11 +64,31 @@ Informação do Atributos:
 
   
   
-  
-  
- # Bibliotecas 
+  # Algoritmos para parte 2
 
-<li>pandas
-<li>matplotlib
-<li>seaborn
-<li>scikit-learn
+<li> Regressão Logística
+<li> k-vizinhos mais próximos 
+<li> Árvore de Decisão 
+
+  
+ # Bibliotecas parte1/parte2
+
+<li> pandas
+<li> matplotlib
+<li> seaborn
+<li> scikit-learn
+<li> numpy
+<li> matplotlib
+ 
+ 
+ 
+ # Bibliografias parte1/parte2
+ 
+<li>  https://www.freecodecamp.org/news/end-to-end-machine-learning-project-turorial/
+<li>  https://pt.wikipedia.org/wiki/Conjunto_de_dados_flor_Iris
+<li>  https://awari.com.br/algoritmos-de-classificacao-uma-introducao/
+<li>  https://dadosaocubo.com/classificacao-com-scikit-learn/
+<li>  http://www.sakurai.dev.br/classificacao-iris/
+<li>  https://blog.geekhunter.com.br/aprendizado-de-maquina-e-seus-algoritmos/
+<li>  https://medium.com/@pedrofullstack/introdu%C3%A7%C3%A3o-ao-jupyter-notebook-para-python-b2cf79cea31d
+<li>  https://kenzie.com.br/blog/google-colab/
