@@ -1,7 +1,7 @@
-# Desafio Machine learn
+# Desafio Machine Learning
 
 
-# Parte 1 - Projeto de aprendizado de máquina para prever o consumo de combustível de veículos.
+# Parte 1 - Projeto de aprendizagem de máquina para prever o consumo de combustível de veículos.
 
 -> Auto MPG Data Set - Problema de regressão
 
@@ -32,7 +32,7 @@ Utilizou-se a classe baseEstimador para escrever algumas transformações person
 Foram manipulados os atributos categóricos com a finalidade de limpar os dados usando o método de imputação com valores de medianas através das classes do Scikit-Learn.
 A coluna origem passou a ser do tipo objeto-variável qualitativa. Realizou-se a codificação para uma matriz esparsa com três classes no conjunto de dados. O objetivo da matriz esparsa é de condensar e comprimir os dados. Com isso, os dados ficaram preparados para ser inseridos no modelo de aprendizado de máquina.
 A seleção e treinamento de alguns modelos de aprendizado de máquina foram feitos com o uso de algoritmos, entre eles estão o de regressão linear. Não foi um bom método para quantificar a diferença entre o valor real e o valor previsto, então foi necessário usar métricas de desempenho. Como nesse caso se trata de regressão, a métrica utilizada para avaliação do modelo específico foi o erro quadrático médio, pois ele informou quanto de erro um sistema específico cometeu em suas previsões com base na diferença entre o valor real e o valor previsto.
-Ao testar o modelo com a árvore de decisão, encontrou-se o resultado zero, no entanto, isso é impossível, já que não existe um modelo de aprendizado de máquina perfeito.
+Ao testar o modelo com a árvore de decisão, encontrou-se o resultado zero, no entanto, isso é impossível, já que não existe um modelo de aprendizagem de máquina perfeito.
 Foi testado também os modelos de floresta aleatória e SVM com os mesmos dados em que o modelo foi treinado, logo é um problema. A solução utilizada foi a validação cruzada que consiste em dividir aleatoriamente o conjunto de treinamento em k dobras.
 Ao avaliar todos os modelos usando o método de validação cruzada, percebeu-se que o modelo floresta aleatória foi o que obteve melhor performance entre os modelos. Foi realizado o ajuste de hiper parâmetro no modelo floresta aleatória por ter sido o que obteve o melhor rendimento. Depois de comprovar o funcionamento dos métodos, foi realizada a avaliação de todo o sistema com os dados de teste. O modelo será capaz de prever o MPG ou a eficiência de combustível de veículos com um erro quadrático médio de 3.0682.
 
@@ -44,7 +44,7 @@ Ao avaliar todos os modelos usando o método de validação cruzada, percebeu-se
 <li>Floresta aleatória 
 <li>SVM
  
- # Parte 2 - Projeto de aprendizado de máquina para quantificar a variação morfológica das flores de íris de três espécies relacionadas.
+ # Parte 2 - Projeto de aprendizagem de máquina para quantificar a variação morfológica das flores de íris de três espécies relacionadas.
 
  -> Iris dataset analysis - Problema de classificação
   
