@@ -1,14 +1,14 @@
-# Desafio Machine Learning
+# *Desafio Machine Learning*
 
-Parte 2 - Projeto de aprendizagem de máquina para quantificar a variação morfológica das flores de íris de três espécies relacionadas.
+*Parte 2* - Projeto de aprendizagem de máquina para quantificar a variação morfológica das flores de íris de três espécies relacionadas.
 
- -> Iris dataset analysis - Problema de classificação
+ -> *Iris dataset analysis* - Problema de classificação
   
 Informação do conjunto de dados:
 O conjunto de dados contem três tipos de flores de íris, são 150 registros com cinco atributos - comprimento da sépala, largura da sépala, comprimento da pétala, largura da pétala e espécies
    
   
-Informação do Atributos: 
+*Informações dos Atributos*: 
 
 1. comprimento sépala em cm
 2. largura sépala em cm
@@ -21,14 +21,14 @@ Com o auxílio das classes Pandas e NumPy foi realizada a análise exploratória
 O próximo passo consistiu em aplicar os modelos de avaliação com o auxílio das funcionalidade das classes do Scikit-Learn. Os modelos usados foram de Regressão logística, K-vizinhos mais próximos e modelo árvore de decisão. Foi determinada a matriz de confusão de cada modelo e se observou que na diagonal principal os valores de verdadeiro positivo estavam mais acertados. Adotou-se a acurácia para calcular a performance de cada modelo e o que obteve o melhor resultado foi o de Árvore de decisão com 94,29% de predições corretas.
 
   
-  # Algoritmos 
+  ## *Algoritmos* 
 
 <li> Regressão Logística
 <li> k-vizinhos mais próximos 
 <li> Árvore de Decisão 
 
   
- # Bibliotecas 
+ ## *Bibliotecas* 
 
 <li> pandas 1.3.4
 <li> matplotlib 3.4.3
@@ -39,7 +39,7 @@ O próximo passo consistiu em aplicar os modelos de avaliação com o auxílio d
  
  
  
- # Bibliografias 
+ ## *Bibliografias* 
  
 <li>  https://www.freecodecamp.org/news/end-to-end-machine-learning-project-turorial/
 <li>  https://pt.wikipedia.org/wiki/Conjunto_de_dados_flor_Iris
